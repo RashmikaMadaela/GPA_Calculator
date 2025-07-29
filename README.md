@@ -1,12 +1,58 @@
-# React + Vite
+# CSE GPA Calculator 📈
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, modern, and responsive web application to calculate the Semester GPA and Cumulative GPA for the first two semesters of a Computer Science & Engineering undergraduate program. Built with React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+[![Live Site](https://img.shields.io/badge/Live_Site-View_Now-brightgreen?style=for-the-badge&logo=github)](https://RashmikaMadaela.github.io/GPA_Calculator/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Semester GPA:** Instantly calculates the GPA for each semester individually.
+- **Cumulative GPA:** Provides an up-to-the-minute cumulative GPA across all semesters.
+- **Real-time Calculation:** All GPA values update immediately as you select grades.
+- **Modern UI:** A sleek, dark-themed interface built with Tailwind CSS.
+- **Responsive Design:** Looks great on both desktop and mobile devices.
+- **Easy Deployment:** Deployed on GitHub Pages with a simple command.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend:** [React.js](https://react.dev/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Deployment:** [GitHub Pages](https://pages.github.com/)
+
+## 🚀 Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+You need to have [Node.js](https://nodejs.org/) (version 18 or later) and npm installed on your machine.
+
+### Installation & Setup
+
+1.  **Clone the repository:**
+    ```sh
+    git clone [https://github.com/](https://github.com/)<YOUR-USERNAME>/<YOUR-REPO-NAME>.git
+    ```
+2.  **Navigate to the project directory:**
+    ```sh
+    cd <YOUR-REPO-NAME>
+    ```
+3.  **Install NPM packages:**
+    ```sh
+    npm install
+    ```
+4.  **Run the development server:**
+    ```sh
+    npm run dev
+    ```
+    Your application should now be running on `http://localhost:5173/`.
+
+## 🚢 Deployment
+
+This project is configured for easy deployment to GitHub Pages.
+
+To deploy your version, simply run the following command:
+
+```sh
+npm run deploy
