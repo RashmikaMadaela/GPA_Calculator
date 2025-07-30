@@ -18,7 +18,7 @@ const ModuleRow = ({ moduleData, onUpdate, onDelete }) => {
             placeholder="Credits"
             value={moduleData.credits}
             onChange={(e) => onUpdate('credits', e.target.value)}
-            className="bg-slate-600 text-white rounded px-2 py-1 w-1/2 md:w-16 text-sm focus:ring-2 focus:ring-cyan-500 focus:outline-none"
+            className="bg-slate-600 text-white rounded px-2 py-1 w-1/2 md:w-20 text-sm focus:ring-2 focus:ring-cyan-500 focus:outline-none"
           />
           <select
             value={moduleData.grade}
