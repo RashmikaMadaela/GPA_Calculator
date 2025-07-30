@@ -1,24 +1,29 @@
-# CSE GPA Calculator 📈
+# Dynamic GPA Calculator 🎓
 
-A clean, modern, and responsive web application to calculate the Semester GPA and Cumulative GPA for the first two semesters of a Computer Science & Engineering undergraduate program. Built with React, Vite, and Tailwind CSS.
+A flexible and dynamic GPA calculator that supports both pre-configured course loads (for CSE students) and fully custom setups for any department or university. Built with React, Vite, and Tailwind CSS.
 
 [![Live Site](https://img.shields.io/badge/Live_Site-View_Now-brightgreen?style=for-the-badge&logo=github)](https://RashmikaMadaela.github.io/GPA_Calculator/)
 
 ## ✨ Features
 
-- **Semester GPA:** Instantly calculates the GPA for each semester individually.
-- **Cumulative GPA:** Provides an up-to-the-minute cumulative GPA across all semesters.
-- **Real-time Calculation:** All GPA values update immediately as you select grades.
-- **Modern UI:** A sleek, dark-themed interface built with Tailwind CSS.
-- **Responsive Design:** Looks great on both desktop and mobile devices.
-- **Easy Deployment:** Deployed on GitHub Pages with a simple command.
+-   **Dual Modes**:
+    -   **CSE Mode**: Starts with a pre-filled, expandable template for CSE students.
+    -   **Custom Mode**: Start from a blank slate, perfect for any department or university curriculum.
+-   **Fully Dynamic Structure**:
+    -   Add or remove entire semesters.
+    -   Add or remove individual modules within any semester.
+-   **Custom Modules**: Define your own module names and credit values.
+-   **Real-time Calculations**:
+    -   **SGPA** (Semester GPA) is calculated and displayed for each semester card.
+    -   **CGPA** (Cumulative GPA) updates instantly with every change.
+-   **Modern UI & Responsive Design**: A clean, dark-themed interface that works seamlessly on desktop and mobile devices.
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** [React.js](https://react.dev/)
-- **Build Tool:** [Vite](https://vitejs.dev/)
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-- **Deployment:** [GitHub Pages](https://pages.github.com/)
+-   **Frontend:** [React.js](https://react.dev/) (with Hooks like `useState`, `useEffect`, `useMemo`)
+-   **Build Tool:** [Vite](https://vitejs.dev/)
+-   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+-   **Deployment:** [GitHub Pages](https://pages.github.com/)
 
 ## 🚀 Getting Started
 
