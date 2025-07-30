@@ -1,6 +1,6 @@
 // This file contains all the course data and grade point values.
 
-export const modules = [
+export const initialCseSemesters = [
   // Semester 1
   { id: 'S1M1', semester: 1, name: 'Mathematics', credits: 3 },
   { id: 'S1M2', semester: 1, name: 'Programming Fundamentals', credits: 3 },
